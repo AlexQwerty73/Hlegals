@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'TT Norms';
+}
+
+.container {
+    width: 1440px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.splash {
+    background: url('../images/PatternSplash.png') no-repeat center/cover;
+    color: white;
+    padding: 50px 60px 0;
+}
+
+.splash a {
+    color: white;
+}
+
+.splash .logo {
+    width: 155px;
+    height: 62px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-contacts {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.header-contacts div {
+    margin-right: 20px;
+}
+
+.header-contacts div:nth-child(2),
+.header-contacts div:nth-child(3) {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header-contacts div:nth-child(3) {
+    font-weight: 700;
+}
+
+.header-contacts div:nth-child(1)::after,
+.header-contacts div:nth-child(2)::after,
+.header-contacts div:nth-child(3)::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #E6E6F0;
+    position: absolute;
+    top: calc(50% - 3px);
+    left: 90px;
+}
+.header-contacts div:nth-child(2)::after{
+    left: 317px;
+}
+.header-contacts div:nth-child(3)::after{
+    left: 470px;
+}
+
+.header-contacts ul {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.header-contacts li {
+    height: 24px;
+    width: 29px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.header-contacts li.active {
+    background: #F0145A;
+}
+
+.navigation {
+    justify-content: flex-end;
+}
+
+.navigation li a {
+    margin-right: 15px;
+    font-size: 18px;
+    line-height: 21px;
+}
