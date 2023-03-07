@@ -1,10 +1,12 @@
+@import url('./fonts.css');
+
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    font-family: 'TT Norms';
+    font-family: 'TT Norms', sans-serif;
     /* font-weight: 700; */
 }
 
@@ -51,6 +53,7 @@
 .header-contacts div:nth-child(3) {
     font-size: 16px;
     line-height: 19px;
+    font-weight: 400;
 }
 
 .header-contacts div:nth-child(3) {
@@ -71,11 +74,11 @@
 }
 
 .header-contacts div:nth-child(2)::after {
-    left: 317px;
+    left: 325px;
 }
 
 .header-contacts div:nth-child(3)::after {
-    left: 470px;
+    left: 490px;
 }
 
 .header-contacts ul {
@@ -102,7 +105,7 @@
 
 .navigation li a {
     margin-right: 15px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 18px;
     line-height: 21px;
 }
@@ -117,7 +120,7 @@
 .SymbolLongleg p {
     font-size: 38px;
     line-height: 45px;
-    font-weight: 700;
+    font-weight: 500;
     position: absolute;
     top: 243px;
     z-index: 10;
@@ -268,18 +271,21 @@
     background-clip: text;
 }
 
-.Services-grid.wrap{
+.Services-grid.wrap {
     flex-wrap: wrap;
     /* padding-top: 70px; */
 }
-.Services-grid .block{
+
+.Services-grid .block {
     max-width: 413px;
     margin-top: 60px;
 }
-.Services-grid .block-heading{
+
+.Services-grid .block-heading {
     flex-direction: column;
-   align-items: flex-start;
+    align-items: flex-start;
 }
+
 .Services-grid img {
     width: 92px;
     height: 92px;
@@ -291,24 +297,30 @@
     color: #24A3FF;
     margin: 20px 0 15px;
 }
-.Services-grid p{
-font-size: 18px;
-line-height: 26px;
-color: #FFFFFF;
+
+.Services-grid p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
 }
-.shadow-section{
+
+.shadow-section {
     width: 100%;
     display: flex;
-    align-items:  center;
+    align-items: center;
     flex-direction: column;
 }
-.shadow-section div:nth-child(1){
+
+.shadow-section div:nth-child(1) {
     width: 97%;
     height: 10px;
-background: #CACADB;
-border-radius: 0px 0px 12px 12px;}
-.shadow-section div:nth-child(2){
+    background: #CACADB;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.shadow-section div:nth-child(2) {
     width: 94%;
     height: 10px;
     background: #E7E7F2;
-    border-radius: 0px 0px 12px 12px;}
+    border-radius: 0px 0px 12px 12px;
+}
