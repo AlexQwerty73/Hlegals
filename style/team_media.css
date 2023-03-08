@@ -20,8 +20,7 @@
     .header-contacts div:nth-child(3)::after,
     footer .contacts div.wrap:nth-child(2) h3::before,
     footer .contacts div.wrap:nth-child(1) a p::before,
-    footer .contacts div.wrap:nth-child(2) a p::before,
-    .navigation {
+    footer .contacts div.wrap:nth-child(2) a p::before {
         display: none;
     }
 
@@ -165,7 +164,9 @@
 }
 
 @media screen and (max-width: 600px) {
-.profil .text-container{
-    width: 335px;
+    .profil .text-container {
+        width: 335px;
+    }
 }
-}
+
+

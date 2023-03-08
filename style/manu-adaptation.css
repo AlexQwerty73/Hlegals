@@ -1,0 +1,69 @@
+
+.hidden{
+    overflow: hidden;
+}   
+
+@media screen and (max-width: 900px) {
+
+    .navigation.fix {
+        position: fixed;
+        bottom: -110vh;
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        transition: .5s ease-in-out;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .navigation.fix.active {
+        transition: .5s ease-in-out;
+        top: 0;
+    }
+    .navigation.fix.active body{
+        background-color: black;
+    }
+    .navigation.fix img{
+        width: 32px;
+        height: 32px;
+        margin: 15px 0;
+    }
+    .navigation.fix .heading{
+        display: flex;
+    }
+    .navigation.fix .wrap{
+        flex-direction: column;
+        
+    }
+    .navigation.fix .wrap li{
+        width: 100vw;
+        height: 55px;
+        background: #F5F5FA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+    .navigation.fix .wrap li a{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .navigation.fix .cross{
+        position: relative;
+        left: 35vw;
+        top: 35px;
+    }
+    .navigation.fix .cross-line{
+        width: 30px;
+        height: 2px;
+        background-color: #EC6F5D;position: absolute;
+
+    }
+    .navigation.fix .cross-line:nth-child(1){
+        transform: rotate(45deg);
+    }
+    .navigation.fix .cross-line:nth-child(2){
+        transform: rotate(-45deg);
+    }
+}
