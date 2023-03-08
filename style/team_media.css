@@ -1,0 +1,112 @@
+@media screen and (max-width: 1500px) {
+    header {
+        padding: 20px 0 20px 20px;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .team-photos {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .header-head,
+    .header-contacts div:nth-child(1)::after,
+    .header-contacts div:nth-child(2)::after,
+    .header-contacts div:nth-child(3)::after,
+    footer .contacts div.wrap:nth-child(2) h3::before,
+    footer .contacts div.wrap:nth-child(1) a p::before,
+    footer .contacts div.wrap:nth-child(2) a p::before,
+    .navigation {
+        display: none;
+    }
+
+    .media-header {
+        display: block;
+    }
+
+    .media-header .logo img {
+        height: 31px;
+        width: 212px;
+    }
+
+    .team-block .text-container.header {
+        margin: 20px 0;
+    }
+
+    .team-block .text-container.header p {
+        font-size: 29px;
+        line-height: 38px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .team-block .text-container.header p {
+        font-size: 29px;
+        line-height: 38px;
+    }
+    .team-block .photo-container img {
+        height: 191px;
+        width: 158px;
+        border-radius: 12px;
+    }
+
+    .team-photos{
+        padding: 0 20px;
+    }
+    .team-photos.wrap .block{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        /* max-width: 413px;*/
+    }
+.team-photo-footer.wrap{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+.team-photo-footer.wrap p{
+    margin: 5px 0 10px;
+}
+
+
+    footer {
+        padding: 20px 0 120px;
+    }
+
+    footer .container,
+    footer .container * {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer h3 {
+        margin-right: 0;
+    }
+
+    footer .contacts div.wrap:nth-child(1) a p {
+        margin: 10px 0 0;
+    }
+
+    footer .contacts div.wrap:nth-child(1) {
+        margin-bottom: 0;
+    }
+
+    footer .contacts h3,
+    footer .contacts a p,
+    footer .company p {
+        margin: 20px 0 0;
+        text-align: center;
+    }
+
+    footer .contacts a img {
+        margin: 20px 0;
+    }
+}

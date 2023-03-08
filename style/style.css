@@ -1,29 +1,11 @@
 @import url('./fonts.css');
 
-* {
-    margin: 0px;
-    padding: 0px;
-    border: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: 'TT Norms', sans-serif;
-    /* font-weight: 700; */
-}
-
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .splash {
     background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
     color: white;
     padding: 50px 60px 0;
     height: 800px;
     overflow: hidden;
-
-
 }
 
 .splash a {
@@ -33,12 +15,6 @@
 .splash .logo {
     width: 155px;
     height: 62px;
-}
-
-.wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .header-contacts {
@@ -406,6 +382,10 @@ footer {
     background: #E5E5E5;
 }
 
+footer .container{
+    align-items: flex-start;
+}
+
 footer .contacts div.wrap:nth-child(1) {
     margin-bottom: 22px;
 }
@@ -468,6 +448,4 @@ footer .company p{
     line-height: 19px;
     text-align: right;
     color: #B3B3BA;
-    position: relative;
-    top: -30px;
 }
