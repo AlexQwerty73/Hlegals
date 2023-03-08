@@ -50,29 +50,33 @@
         font-size: 29px;
         line-height: 38px;
     }
+
     .team-block .photo-container img {
         height: 191px;
         width: 158px;
         border-radius: 12px;
     }
 
-    .team-photos{
+    .team-photos {
         padding: 0 20px;
     }
-    .team-photos.wrap .block{
+
+    .team-photos.wrap .block {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
         /* max-width: 413px;*/
     }
-.team-photo-footer.wrap{
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 20px;
-}
-.team-photo-footer.wrap p{
-    margin: 5px 0 10px;
-}
+
+    .team-photo-footer.wrap {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+    }
+
+    .team-photo-footer.wrap p {
+        margin: 5px 0 10px;
+    }
 
 
     footer {
@@ -109,4 +113,59 @@
     footer .contacts a img {
         margin: 20px 0;
     }
+}
+
+
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------TEAM---MEMBER------------ */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+
+
+
+@media screen and (max-width: 990px) {
+    .profil .about {
+        flex-direction: column;
+    }
+
+    .profil .photo img {
+        height: 406px;
+        width: 335px;
+        margin-right: 0;
+        margin: 20px 0;
+    }
+
+    .profil h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .profil .footer a:nth-child(2) p::before,
+    .profil .footer a:nth-child(3) p::before {
+        display: none;
+    }
+
+    .profil .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+    .profil .footer p:nth-child(1),
+    .profil .footer a:nth-child(2) p {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+.profil .text-container{
+    width: 335px;
+}
 }
