@@ -1,0 +1,40 @@
+.service-section{
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    border-radius: 0px 0px 12px 12px;
+    padding-bottom: 50px;
+}
+
+header a {
+    color: #B3B3BA;
+}
+
+header .logo img {
+    height: 63px;
+    width: 419px;
+}
+
+.header-contacts {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.header-contacts div {
+    margin-right: 20px;
+}
+
+.header-contacts div:nth-child(2),
+.header-contacts div:nth-child(3) {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #B3B3BA;
+}.service-section a {
+    color: white !important;
+}
+.navigation li a.active {
+    border-bottom: 2px solid #ffffff;
+}
+.service-section .logo {
+    width: 155px;
+    height: 62px;
+}
