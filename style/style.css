@@ -75,10 +75,12 @@
 .header-contacts li.active {
     background: #F0145A;
 }
-.facebook img{
+
+.facebook img {
     width: 24px;
     height: 24px;
 }
+
 .navigation {
     justify-content: flex-end;
 }
@@ -320,24 +322,12 @@
 
 
 
-
-/* .Cases{
-
+/* .Cases {
+    margin-top: ;
 } */
-.Cases .wrap-grid{
-    gap: 2px;
-    grid-template-columns: repeat(3, minmax(200px, 433px));
-    grid-template-rows: repeat(auto-fit, auto);
-}
-.Cases .item{
-    background-color: #F5F5FA;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-.Cases .item.wrap-grid{
-    gap: 2px;
-}
+
+@import url('./Cases.css');
+
 /* -------------------------------------------------------------- */
 /* -------------------------------------------------------------- */
 /* -------------------------------------------------------------- */
@@ -400,7 +390,7 @@ footer {
     background: #E5E5E5;
 }
 
-footer .container{
+footer .container {
     align-items: flex-start;
 }
 
@@ -460,7 +450,8 @@ footer .contacts div.wrap:nth-child(2) a p::before {
     top: calc(50% - 3px);
     left: -15px;
 }
-footer .company p{
+
+footer .company p {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;

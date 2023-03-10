@@ -1,3 +1,5 @@
+@import url('./Cases.css');
+
 .service-section{
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
     border-radius: 0px 0px 12px 12px;
@@ -27,7 +29,8 @@ header .logo img {
     font-size: 16px;
     line-height: 19px;
     font-weight: 400;
-    color: #B3B3BA;
+    color: white !important;
+
 }.service-section a {
     color: white !important;
 }
@@ -37,4 +40,8 @@ header .logo img {
 .service-section .logo {
     width: 155px;
     height: 62px;
+}
+
+.Cases{
+    margin-top: 40px;
 }
