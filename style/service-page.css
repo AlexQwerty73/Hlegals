@@ -1,6 +1,6 @@
 @import url('./Cases.css');
 
-.service-section{
+.service-section {
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
     border-radius: 0px 0px 12px 12px;
     padding-bottom: 50px;
@@ -31,13 +31,71 @@ header .logo img {
     font-weight: 400;
     color: white !important;
 
-}.service-section a {
+}
+
+.service-section a,
+.header-section a {
     color: white !important;
 }
+
 .navigation li a.active {
     border-bottom: 2px solid #ffffff;
 }
+
 .service-section .logo {
     width: 155px;
     height: 62px;
+}
+
+/* -------------service page -------------*/
+
+
+.header-section {
+    background:
+        /* url('../images/service-page-bg.png') no-repeat 50% top/cover, */
+        linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%) no-repeat 50% bottom/100%;
+    border-radius: 0px 0px 12px 12px;
+    /* height: 1151px; */
+    padding: 50px 60px 80px;
+
+}
+
+.intro-section.wrap {
+    max-width: 860px;
+    flex-direction: column;
+    color: white;
+    margin: 50px auto 80px;
+}
+
+.intro-section img,
+.intro-section h2,
+.intro-section p{
+    margin-bottom: 20px;
+}
+.intro-section p:nth-child(4){
+    margin-bottom: 60px;
+}
+.service-icon img {
+    width: 92px;
+    height: 92px;
+}
+
+.intro-section h2 {
+    font-size: 42px;
+    line-height: 50px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.intro-section p{
+font-size: 21px;
+line-height: 30px;
+text-align: center;
+}
+.intro-section a{
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+    padding: 16px 35px;
 }
