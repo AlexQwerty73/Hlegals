@@ -99,3 +99,24 @@ text-align: center;
     border-radius: 12px;
     padding: 16px 35px;
 }
+
+
+.services-section{
+    max-width: 1092px;
+    border-top: 4px solid white;
+    margin: 0 auto;
+}
+
+.services-section h3{
+color: white;
+    font-size: 24px;
+    line-height: 28px;
+}
+.services-section li{
+    color: white;
+font-size: 18px;
+line-height: 26px;
+}
+.services-section .text-container{
+    
+}
