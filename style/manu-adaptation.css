@@ -76,3 +76,25 @@
 .navigation.fix.active .cross-line:nth-child(2) {
     transform: rotate(-45deg);
 }
+.media-header{
+    display: none;
+}
+/* ------------- */
+
+@media screen and (max-width: 1100px) {
+.header-head,
+.header-contacts div:nth-child(1)::after,
+.header-contacts div:nth-child(2)::after,
+.header-contacts div:nth-child(3)::after,
+.splash nav{
+    display: none;
+}
+
+.media-header {
+    display: block;
+}
+
+.media-header .logo img {
+    height: 31px;
+    width: 212px;
+}}

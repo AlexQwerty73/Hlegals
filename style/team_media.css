@@ -14,24 +14,7 @@
 
 @media screen and (max-width: 1100px) {
 
-    .header-head,
-    .header-contacts div:nth-child(1)::after,
-    .header-contacts div:nth-child(2)::after,
-    .header-contacts div:nth-child(3)::after,
-    footer .contacts div.wrap:nth-child(2) h3::before,
-    footer .contacts div.wrap:nth-child(1) a p::before,
-    footer .contacts div.wrap:nth-child(2) a p::before {
-        display: none;
-    }
-
-    .media-header {
-        display: block;
-    }
-
-    .media-header .logo img {
-        height: 31px;
-        width: 212px;
-    }
+   
 
     .team-block .text-container.header {
         margin: 20px 0;
