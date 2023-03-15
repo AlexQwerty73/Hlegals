@@ -1,7 +1,10 @@
 @import url('./fonts.css');
 
 .splash {
-    background: linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+    background: linear-gradient(180deg, rgba(50, 50, 100, 0) 10%, #323264 100%) repeat-x center bottom,
+    url("../images/SymbolLongleg.png") no-repeat center bottom,
+    url("../images/pattern.svg") no-repeat center bottom,
+    linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
     color: white;
     padding: 50px 60px 0;
     height: 800px;
@@ -109,36 +112,14 @@
     text-align: center;
 }
 
-.SymbolLongleg img:last-child {
-    height: 687.5px;
-    width: 430px;
-}
-
-.SymbolLongleg .background {
-    height: 644px;
-    width: 689px;
-
+ .scoll-down  {
     position: absolute;
-    top: 63px;
-}
-
-.invisible {
-    width: 100vw;
-    height: 225px;
-    background: linear-gradient(180deg, rgba(50, 50, 100, 0) 10%, #323264 100%);
-    position: relative;
-    top: -200px;
-    /* left: -100px; */
-}
-
-.invisible .scoll-down img {
-    position: relative;
     left: calc(50% - 21px);
-    top: 150px;
+    top: 603px;
 
 }
 
-.invisible .scoll-down img {
+.scoll-down img {
     width: 42px;
     height: 42px;
     z-index: 1;
@@ -229,62 +210,6 @@
     line-height: 30px;
 }
 
-.services {
-    margin-top: 80px;
-}
-
-.services .heading h3 {
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    opacity: 0.5;
-}
-
-.services .heading h2 {
-    margin-bottom: 10px;
-    font-size: 42px;
-    line-height: 50px;
-    font-weight: 700;
-    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.Services-grid.wrap {
-    flex-wrap: wrap;
-    /* padding-top: 70px; */
-}
-
-.Services-grid .block {
-    max-width: 413px;
-    margin-top: 60px;
-}
-
-.Services-grid .block-heading {
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.Services-grid img {
-    width: 92px;
-    height: 92px;
-}
-
-.Services-grid h2 {
-    font-size: 24px;
-    line-height: 28px;
-    color: #24A3FF;
-    margin: 20px 0 15px;
-}
-
-.Services-grid p {
-    font-size: 18px;
-    line-height: 26px;
-    color: #FFFFFF;
-}
 
 .shadow-section {
     width: 100%;
@@ -307,33 +232,6 @@
     border-radius: 0px 0px 12px 12px;
 }
 
-
-.Clients .heading {
-    justify-content: center;
-}
-
-.Clients h3 {
-    margin: 30px auto;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #323264;
-}
-
-.Clients .item-container {
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.Clients .item-container img {
-    width: 360px;
-    height: 120px;
-    margin-bottom: -5px;
-}
-
-
 footer .container.index{
     position: relative;
 }
@@ -341,7 +239,7 @@ footer .container.index::before{
     content: '';
     position: absolute;
     top: 0px;
-    width: 1320px;
+    width: 92%;
     height: 4px;
     background: rgba(230, 230, 240, 1);
 }

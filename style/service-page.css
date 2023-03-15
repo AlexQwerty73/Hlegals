@@ -145,3 +145,17 @@ header .logo img {
     align-items: flex-start;
 
 }
+
+/* //////////////////i to i to (*/
+
+.burger-line{
+    background-color: white;
+}
+.service-section{
+    padding: 50px 60px ;
+}
+@media screen and (max-width: 1100px) {
+.service-section{
+    padding: 20px;
+}
+}

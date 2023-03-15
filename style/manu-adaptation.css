@@ -86,6 +86,7 @@
 .header-contacts div:nth-child(1)::after,
 .header-contacts div:nth-child(2)::after,
 .header-contacts div:nth-child(3)::after,
+/* .header-head .navigation, */
 .splash nav{
     display: none;
 }
