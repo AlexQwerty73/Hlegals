@@ -308,36 +308,6 @@
 }
 
 
-
-
-
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-/* .Team{
-
-} */
-
-
-
-/* .Cases {
-    margin-top: ;
-} */
-
-@import url('./Cases.css');
-
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-
-
-
-
-
 .Clients .heading {
     justify-content: center;
 }
@@ -364,97 +334,14 @@
 }
 
 
-
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-/* --------------------------------------------------------------- */
-
-
-/* .Publications{
-
-} */
-
-
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-/* -------------------------------------------------------------- */
-
-
-
-
-
-footer {
-    padding: 30px 60px 40px;
-    background: #E5E5E5;
-}
-
-footer .container {
-    align-items: flex-start;
-}
-
-footer .contacts div.wrap:nth-child(1) {
-    margin-bottom: 22px;
-}
-
-footer img {
-    width: 38px;
-    height: 38px;
-}
-
-footer h3 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #323264;
-    margin-right: 47px;
-}
-
-footer .contacts div.wrap:nth-child(2) h3 {
-    font-weight: 700;
-    margin: 0 26px 0 17px;
-}
-
-footer .contacts div.wrap:nth-child(1) a p {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #24A3FF;
-}
-
-footer .contacts div.wrap:nth-child(2) a p {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    color: #24A3FF;
-}
-
-footer .contacts div.wrap:nth-child(2) h3,
-footer .contacts div.wrap:nth-child(1) a p,
-footer .contacts div.wrap:nth-child(2) a p {
+footer .container.index{
     position: relative;
 }
-
-footer .contacts div.wrap:nth-child(2) h3::before,
-footer .contacts div.wrap:nth-child(1) a p::before,
-footer .contacts div.wrap:nth-child(2) a p::before {
+footer .container.index::before{
     content: '';
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #B3B3BA;
     position: absolute;
-    top: calc(50% - 3px);
-    left: -15px;
-}
-
-footer .company p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: right;
-    color: #B3B3BA;
+    top: 0px;
+    width: 1320px;
+    height: 4px;
+    background: rgba(230, 230, 240, 1);
 }

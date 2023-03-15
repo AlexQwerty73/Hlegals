@@ -69,12 +69,14 @@ header .logo img {
 
 .intro-section img,
 .intro-section h2,
-.intro-section p{
+.intro-section p {
     margin-bottom: 20px;
 }
-.intro-section p:nth-child(4){
+
+.intro-section p:nth-child(4) {
     margin-bottom: 60px;
 }
+
 .service-icon img {
     width: 92px;
     height: 92px;
@@ -88,12 +90,14 @@ header .logo img {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.intro-section p{
-font-size: 21px;
-line-height: 30px;
-text-align: center;
+
+.intro-section p {
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
 }
-.intro-section a{
+
+.intro-section a {
     background: #24A3FF;
     box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
     border-radius: 12px;
@@ -101,22 +105,43 @@ text-align: center;
 }
 
 
-.services-section{
+.services-section {
     max-width: 1092px;
-    border-top: 4px solid white;
+    border-top: 4px solid rgb(179, 179, 179);
     margin: 0 auto;
 }
 
-.services-section h3{
-color: white;
+.services-section h3 {
+    color: white;
     font-size: 24px;
     line-height: 28px;
+    margin: 20px 0;
 }
-.services-section li{
+
+.services-section ul {
+    max-width: 514px;
+}
+
+.services-section li {
     color: white;
-font-size: 18px;
-line-height: 26px;
+    font-size: 18px;
+    line-height: 26px;
+    margin-left: 25px;
+    position: relative;
 }
-.services-section .text-container{
-    
+
+.services-section li::before {
+    content: '';
+    position: absolute;
+    top: 11px;
+    left: -15px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #F0145A;
+}
+
+.services-section .text-container.wrap {
+    align-items: flex-start;
+
 }
