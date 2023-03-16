@@ -13,3 +13,11 @@ cross.addEventListener('click', () => {
     menu.classList.toggle('active')
     body.classList.toggle('hidden')
 })
+
+$('.carousel').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
+  });
