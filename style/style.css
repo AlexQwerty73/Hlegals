@@ -1,14 +1,18 @@
 @import url('./fonts.css');
-
+.burger .burger-line{
+    background-color: white;
+}
 .splash {
     background: linear-gradient(180deg, rgba(50, 50, 100, 0) 10%, #323264 100%) repeat-x center bottom,
     url("../images/SymbolLongleg.png") no-repeat center bottom,
     url("../images/pattern.svg") no-repeat center bottom,
     linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
     color: white;
-    padding: 50px 60px 0;
     height: 800px;
     overflow: hidden;
+}
+.splash .container{
+    padding: 50px 60px 0;
 }
 
 .splash a {
@@ -134,7 +138,11 @@
     border-radius: 0px 0px 12px 12px;
     /* height: 1374px; */
     padding: 80px 60px;
+
 }
+/* .Experience-Services .container{
+} */
+
 
 .experience {
     justify-content: center;
@@ -231,6 +239,61 @@
     background: #E7E7F2;
     border-radius: 0px 0px 12px 12px;
 }
+
+/* ............... */
+#carouselExampleCaptions .carousel-item img{
+    height: 500px;
+    width: 413px !important;
+    position: absolute;
+    left: 0;
+}
+#carouselExampleCaptions .carousel-item .d-none{
+    height: 500px;
+    width: 907px;
+    padding: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: left ;
+}
+#carouselExampleCaptions .carousel-item{
+    display: flex;
+    flex-direction: row;
+    
+background: #F5F5FA;
+border-radius: 12px;
+overflow: hidden;
+}
+#carouselExampleCaptions .carousel-item.active *{
+    display: block;
+    position: relative;
+    color: black;
+}
+#carouselExampleCaptions .carousel-item *{
+    display: none;
+    position: absolute;
+    color: black;
+}
+
+
+.carousel-indicators{
+    bottom: -50px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #24A3FF;
+    border: none;
+    opacity: .2;
+}
+.carousel-indicators .active{
+    opacity: 1;
+}
+.carousel-control-next, .carousel-control-prev{
+    display: none;
+}
+/* ............... */
 
 footer .container.index{
     position: relative;

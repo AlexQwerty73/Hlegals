@@ -49,16 +49,21 @@
     margin-bottom: 5px;
 }
 
-.navigation.fix.active .wrap li a {
+.navigation.fix .wrap li a {
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
+    color: #24A3FF;
+}
+.navigation.fix .wrap li a.active{
+    color: #F0145A;
 }
 
 .navigation.fix.active .cross {
     position: relative;
     left: 35vw;
     top: 35px;
+    cursor: pointer;
 }
 
 .navigation.fix.active .cross-line {
