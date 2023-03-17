@@ -71,6 +71,7 @@
         justify-content: flex-start;
         align-items: center;
         gap: 10px;
+        margin-bottom: 10px;
     }
     .services .block-heading.wrap img{
         width: 64px;

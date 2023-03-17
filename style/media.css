@@ -10,6 +10,43 @@
     
 }
 }
+
+@media screen and (max-width: 1200px) {
+    .carousel .text-conteiner h2{
+    font-size: 32px;
+    line-height: 38px;
+ }
+ .carousel img{
+    display: none;
+ }
+ .carousel .card{
+    padding: 20px;
+ }
+ .carousel .foot-text-container img{
+    display: block;
+    width: 60px !important;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right:10px;
+ }
+ .carousel .foot-text-container {
+    display: flex;
+    flex-direction: row;
+ }
+ 
+.carousel .text-conteiner {
+    padding: 0px;
+}
+.Team {
+    padding: 20px;
+}
+
+.carousel-indicators {
+    position: absolute;
+top: -100px;
+}
+}
 @media screen and (max-width: 1000px) {
     .Experience-Services .container{
         padding: 20px;
