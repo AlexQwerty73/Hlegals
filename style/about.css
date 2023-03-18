@@ -1,0 +1,166 @@
+.introduction-section .container.wrap,
+.more-text .container.wrap {
+    justify-content: center;
+    align-items: flex-start;
+    margin: 80px auto 100px;
+}
+
+.introduction-section .text-block,
+.more-text .p-container {
+    max-width: 641px;
+    margin: 0 40px 0 0;
+}
+
+.introduction-section .advantages-block,
+.more-text .heading {
+    max-width: 412px;
+}
+
+.introduction-section .text-block * {
+    margin-bottom: 20px;
+}
+
+.introduction-section .text-block *:last-child {
+    margin-bottom: 0;
+}
+
+.introduction-section .text-block h2,
+.more-text h2 {
+    font-size: 42px;
+    line-height: 50px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.introduction-section .text-block p,
+.more-text p {
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.introduction-section .advantages-block ul {
+    border-left: 4px solid #E6E6F0;
+    padding-left: 18px;
+}
+
+.introduction-section .advantages-block li {
+    margin-bottom: 40px;
+}
+
+.introduction-section .advantages-block li:last-child {
+    margin-bottom: 0;
+}
+
+.introduction-section .advantages-block img {
+    height: 42px;
+    margin-bottom: 10px;
+
+}
+
+.introduction-section .advantages-block p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #323264;
+}
+
+
+
+
+
+
+.achievments-slider {
+    background: #F5F5FA;
+    border-radius: 12px 12px 0px 0px;
+    padding-top: 10px;
+}
+.achievments-slider .container{
+    padding: 0 60px;
+}
+
+.achievments-slider .text-content h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323264;
+    margin: 30px 0;
+}
+.slick-arrow {
+    display: none !important;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots li {
+    margin:25px 5px 30px;
+}
+
+.achievments-slider .block {
+    position: relative;
+    left: 15px;
+}
+.slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: rgba(36, 163, 255, 1);
+    opacity: 0.2;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    /* position: relative;
+    left: -20px; */
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+.photo-section {
+    /* width: 100vh; */
+    height: 438px;
+    background:
+        url('../images/team-photo-section.png') no-repeat center,
+        url('../images/team-photo-section-text.png') no-repeat center;
+}
+
+.photo-section .container {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-section h2 {
+    font-size: 96px;
+    line-height: 113px;
+    text-align: center;
+    letter-spacing: 63px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+}
+
+.photo-section img {
+    max-width: 905px;
+    max-height: 113px;
+}
+
+
+footer {
+    margin: 0;
+}

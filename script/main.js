@@ -21,3 +21,9 @@ $('.carousel').slick({
     // fade: true,
     cssEase: 'ease-in-out'
   });
+  $('.slider').slick({
+    dots: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4
+  });

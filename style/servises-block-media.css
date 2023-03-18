@@ -1,4 +1,3 @@
-
 .services {
     margin-top: 80px;
 }
@@ -60,28 +59,31 @@
 
 
 @media screen and (max-width: 1390px) {
-    .services .Services-grid.wrap{
+    .services .Services-grid.wrap {
         justify-content: space-around;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .services .block-heading.wrap{
+    .services .block-heading.wrap {
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
         gap: 10px;
         margin-bottom: 10px;
     }
-    .services .block-heading.wrap img{
+
+    .services .block-heading.wrap img {
         width: 64px;
         height: 64px;
     }
-    .services .block-heading.wrap h2{
-font-size: 18px;
-line-height: 21px;
+
+    .services .block-heading.wrap h2 {
+        font-size: 18px;
+        line-height: 21px;
     }
-    .Experience-Services{
+
+    .Experience-Services {
         padding: 20px;
     }
 }

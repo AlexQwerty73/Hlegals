@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script defer src="../script/jquery-3.6.4.min.js"></script>
+    <script defer type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
     <link rel="stylesheet" href="../style/standart.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/team.css">
     <link rel="stylesheet" href="../style/about.css">
+    <link rel="stylesheet" href="../style/footer_media.css">
     <link rel="stylesheet" href="../style/manu-adaptation.css">
 
     <script defer src="../script/main.js"></script>
 </head>
+
 <body>
     <!-- ---------------------------- -->
     <div class="navigation wrap fix">
         <div class="heading">
             <div class="icon">
                 <a href="./index.html">
-                <img src="../images/Symbol-mobile.png" alt="icon">
-            </a></div>
+                    <img src="../images/Symbol-mobile.png" alt="icon">
+                </a>
+            </div>
             <div class="cross">
                 <div class="cross-line"></div>
                 <div class="cross-line"></div>
@@ -27,13 +38,13 @@
         </div>
         <ul class="wrap">
             <li>
-                <a href="./about.html">о нас</a>
+                <a class="active" href="./about.html">о нас</a>
             </li>
             <li>
                 <a href="./Service-page.html">послуги</a>
             </li>
             <li>
-                <a class="active" href="./team.html">команда</a>
+                <a href="./team.html">команда</a>
             </li>
             <li>
                 <a href="./publications.html">публікації</a>
@@ -43,6 +54,265 @@
             </li>
         </ul>
     </div>
+    <header class="media-header">
+        <div class="header-contacts wrap">
+            <div class="lang">
+                <ul class="wrap">
+                    <li class="wrap active">
+                        <a href="#">УК</a>
+                    </li>
+                    <li class="wrap">
+                        <a href="#">РУ</a>
+                    </li>
+                    <li class="wrap">
+                        <a href="#">EN</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tel">
+                <a href="tel:+380503901591">+38 (050) 390 15 91</a>
+            </div>
+        </div>
+        <div class="main-header wrap">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="../images/about-logo.png" alt="logo">
+                </a>
+            </div>
+
+            <div class="burger ">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+
+        </div>
+    </header>
     <!-- ---------------------------- -->
+
+
+    <header class="header-head">
+        <div class="container">
+            <nav class="wrap">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="../images/about-logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="text-content">
+                    <div class="header-contacts wrap">
+                        <div class="lang">
+                            <ul class="wrap">
+                                <li class="wrap active">
+                                    <a href="#">УК</a>
+                                </li>
+                                <li class="wrap">
+                                    <a href="#">РУ</a>
+                                </li>
+                                <li class="wrap">
+                                    <a href="#">EN</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p>Одеса, Адміральський пр., 3</p>
+                        </div>
+                        <div class="tel">
+                            <a href="tel:+380503901591">+38 (050) 390 15 91</a>
+                        </div>
+                        <div class="facebook">
+                            <a href="https://www.facebook.com/">
+                                <img src="../images/gray-facebook.png" alt="facebook">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navigation wrap">
+                        <ul class="wrap">
+                            <li>
+                                <a class="active" href="./about.html">о нас</a>
+                            </li>
+                            <li>
+                                <a href="./Service-page.html">послуги</a>
+                            </li>
+                            <li>
+                                <a href="./team.html">команда</a>
+                            </li>
+                            <li>
+                                <a href="./publications.html">публікації</a>
+                            </li>
+                            <li>
+                                <a href="./contact.html">контакти</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="introduction-section">
+        <div class="container wrap">
+            <div class="text-block">
+                <h2>Перевертаємо уявлення про юридичні послуги.</h2>
+                <p>Консолідуючи багаторічний досвід і практику, юристи компанії супроводжують складні проекти і
+                    досягають
+                    прийняття ряду важливих для галузі рішень. Багато з них формують практику застосування морського
+                    права в
+                    Україні.</p>
+                <p>Prolegals – надійний бізнес-партнер, що підтверджується стабільним співробітництвом з міжнародними
+                    юридичними фірмами, довірою великих українських і міжнародних компаній, визнанням професійних
+                    рейтингів.
+                </p>
+            </div>
+            <div class="advantages-block">
+                <ul>
+                    <li>
+                        <div class="img">
+                            <img src="../images/advantages-img/img1.png" alt="advantage">
+                        </div>
+                        <p>років релевантного досвіду</p>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="../images/advantages-img/img2.png" alt="advantage">
+                        </div>
+                        <p>активних клієнтів, які довіряють нам свої доручення щомісячно</p>
+                    </li>
+                    <li>
+                        <div class="img">
+                            <img src="../images/advantages-img/img3.png" alt="advantage">
+                        </div>
+                        <p>годин роботи «pro bono» щорічно</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-section">
+        <div class="container wrap">
+            <div class="text">
+                <h2>команда</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="more-text">
+        <div class="container wrap">
+            <div class="p-container">
+                <p>Історично незмінна юридична професія почала переформатовуватись в останні роки. Клієнти це
+                    відчувають,
+                    але юридичні фірми все ще опираються еволюції. Клієнти потребують зручності, простоти, прозорої
+                    оплати.
+                    Google, IBM WatsОn, Symantec Clearwell доводять, що технологічна революція в юридичних послугах
+                    розпочалася і стала неминучою.</p>
+
+                <p>Якість — це те, про що ми піклуємося найбільше.</p>
+                <p>Все просто. Якщо ви не задоволені нашою роботою, ми повернемо гроші. Ми довіряємо нашим клієнтам. І
+                    ми
+                    хочемо, щоб клієнти нам теж довіряли.</p>
+            </div>
+            <div class="heading">
+                <h2>Якість — це те, про що ми піклуємося найбільше.</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="achievments-slider">
+        <div class="container">
+            <div class="text-content">
+                <h4>Досягнення</h4>
+            </div>
+            <div class="slider">
+                <div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item1.png" alt="achievment">
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item2.png" alt="achievment">
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item3.png" alt="achievment">
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item4.png" alt="achievment">
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item1.png" alt="achievment">
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item2.png" alt="achievment">
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item3.png" alt="achievment">
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item4.png" alt="achievment">
+                    </a>
+                </div><div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item1.png" alt="achievment">
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item2.png" alt="achievment">
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item3.png" alt="achievment">
+                    </a>
+                </div>
+                <div class="block">
+                    <a href="#">
+                        <img src="../images/achievments-slider-img/Item4.png" alt="achievment">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container wrap index">
+            <div class="contacts">
+                <div class="wrap">
+                    <h3>Одеса, Адміральський пр., 3</h3>
+                    <a href="#">
+                        <p>Подивитися на мапі</p>
+                    </a>
+                </div>
+                <div class="wrap">
+                    <div class="img">
+                        <a href="#">
+                            <img src="../images/Facebook-icon.png" alt="Facebook">
+                        </a>
+                    </div>
+                    <h3> +38 (050) 390 15 91</h3>
+                    <a href="#">
+                        <p>contact@hlegals.net</p>
+                    </a>
+                </div>
+            </div>
+            <div class="company">
+                <p>© 2021 ТОВ Юридична компанія «HLEGALS»</p>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
