@@ -1,8 +1,13 @@
-.introduction-section .container.wrap,
-.more-text .container.wrap {
+.burger-line {
+    background-color: black !important;
+}
+
+.introduction-section .b-block.wrap,
+.more-text .b-block.wrap {
     justify-content: center;
     align-items: flex-start;
     margin: 80px auto 100px;
+    padding: 0 20px;
 }
 
 .introduction-section .text-block,
@@ -16,11 +21,13 @@
     max-width: 412px;
 }
 
-.introduction-section .text-block * {
+.introduction-section .text-block *,
+.more-text .p-container * {
     margin-bottom: 20px;
 }
 
-.introduction-section .text-block *:last-child {
+.introduction-section .text-block *:last-child,
+.more-text .p-container *:last-child {
     margin-bottom: 0;
 }
 
@@ -75,7 +82,8 @@
     border-radius: 12px 12px 0px 0px;
     padding-top: 10px;
 }
-.achievments-slider .container{
+
+.achievments-slider .container {
     padding: 0 60px;
 }
 
@@ -89,6 +97,7 @@
     color: #323264;
     margin: 30px 0;
 }
+
 .slick-arrow {
     display: none !important;
 }
@@ -99,13 +108,14 @@
 }
 
 .slick-dots li {
-    margin:25px 5px 30px;
+    margin: 25px 5px 30px;
 }
 
 .achievments-slider .block {
     position: relative;
     left: 15px;
 }
+
 .slick-dots li button {
     font-size: 0;
     width: 15px;
@@ -122,8 +132,6 @@
 .slick-dots li.slick-active button {
     opacity: 1;
 }
-
-
 
 
 

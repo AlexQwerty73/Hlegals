@@ -20,10 +20,22 @@ $('.carousel').slick({
     speed: 500,
     // fade: true,
     cssEase: 'ease-in-out'
-  });
-  $('.slider').slick({
+});
+
+let count;
+let w = window.innerWidth;
+
+if (w < 1070) {
+    count = 2
+} else if (w < 1370) {
+    count = 3
+} else {
+    count = 4
+}
+
+$('.slider').slick({
     dots: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4
-  });
+    slidesToShow: count,
+    slidesToScroll: count
+});
