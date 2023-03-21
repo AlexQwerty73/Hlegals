@@ -72,6 +72,23 @@ footer .company p {
     text-align: right;
     color: #B3B3BA;
 }
+
+
+
+
+
+footer .container.index {
+    position: relative;
+}
+
+footer .container.index::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 92%;
+    height: 4px;
+    background: rgba(230, 230, 240, 1);
+}
 /* --------------------------------- */
 /* -----------media----------------- */
 /* --------------------------------- */
