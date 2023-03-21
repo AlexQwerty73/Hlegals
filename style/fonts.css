@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'TTNormsBold';
+    src: url('../font/TTNormsBold.eot');
+    src: url('../font/TTNormsBold.eot') format('embedded-opentype'),
+         url('../font/TTNormsBold.woff2') format('woff2'),
+         url('../font/TTNormsBold.woff') format('woff'),
+         url('../font/TTNormsBold.ttf') format('truetype'),
+         url('../font/TTNormsBold.svg#TTNormsBold') format('svg');
+}
+@font-face {
+    font-family: 'TTNormsRegular';
+    src: url('../font/TTNormsRegular.eot');
+    src: url('../font/TTNormsRegular.eot') format('embedded-opentype'),
+         url('../font/TTNormsRegular.woff2') format('woff2'),
+         url('../font/TTNormsRegular.woff') format('woff'),
+         url('../font/TTNormsRegular.ttf') format('truetype'),
+         url('../font/TTNormsRegular.svg#TTNormsRegular') format('svg');
+}
+@font-face {
+    font-family: 'TTNormsMedium';
+    src: url('../font/TTNormsMedium.eot');
+    src: url('../font/TTNormsMedium.eot') format('embedded-opentype'),
+         url('../font/TTNormsMedium.woff2') format('woff2'),
+         url('../font/TTNormsMedium.woff') format('woff'),
+         url('../font/TTNormsMedium.ttf') format('truetype'),
+         url('../font/TTNormsMedium.svg#TTNormsMedium') format('svg');
+}
+@font-face {
+    font-family: 'TTNormsBlack';
+    src: url('../font/TTNormsBlack.eot');
+    src: url('../font/TTNormsBlack.eot') format('embedded-opentype'),
+         url('../font/TTNormsBlack.woff2') format('woff2'),
+         url('../font/TTNormsBlack.woff') format('woff'),
+         url('../font/TTNormsBlack.ttf') format('truetype'),
+         url('../font/TTNormsBlack.svg#TTNormsBlack') format('svg');
+}
