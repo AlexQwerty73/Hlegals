@@ -120,3 +120,14 @@
         opacity: 1;
     }
 }
+@media screen and (max-width: 600px) {
+    .splash {
+        background: 
+            linear-gradient(180deg, rgba(50, 50, 100, 0) 10%, #323264 100%) repeat-x center bottom,
+            url("../images/SymbolLongleg.png") no-repeat center bottom,
+            linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+        color: white;
+        height: 800px;
+        overflow: hidden;
+    }
+}

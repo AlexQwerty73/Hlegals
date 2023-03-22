@@ -1,0 +1,257 @@
+@import url('./fonts.css');
+
+
+header {
+    padding: 50px 60px 0;
+}
+
+header a {
+    color: #B3B3BA;
+}
+
+header .logo img {
+    height: 63px;
+    /* width: 419px; */
+}
+
+.header-contacts {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.header-contacts div {
+    margin-right: 20px;
+}
+
+.header-contacts div:nth-child(2),
+.header-contacts div:nth-child(3) {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #B3B3BA;
+}
+
+.header-contacts div:nth-child(3) {
+    font-weight: 700;
+}
+
+.header-contacts div:nth-child(1)::after,
+.header-contacts div:nth-child(2)::after,
+.header-contacts div:nth-child(3)::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #E6E6F0;
+    position: absolute;
+    top: calc(50% - 3px);
+    left: 90px;
+}
+
+.header-contacts div:nth-child(2)::after {
+    left: 325px;
+}
+
+.header-contacts div:nth-child(3)::after {
+    left: 490px;
+}
+
+.header-contacts ul li {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.header-contacts li {
+    height: 24px;
+    width: 29px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.header-contacts li.active {
+    color: white;
+    background: #F0145A;
+}
+
+.header-contacts li.active a {
+    color: white;
+}
+
+.facebook img {
+    width: 24px;
+    height: 24px;
+}
+
+.navigation {
+    justify-content: flex-end;
+}
+
+.navigation li a {
+    margin-right: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #24A3FF;
+}
+
+.navigation li a.active {
+    color: #F0145A;
+    border-bottom: 2px solid #F0145A;
+}
+
+.team-block .text-container.header {
+    justify-content: center;
+    margin: 80px 0 40px;
+}
+
+.team-block .text-container.header p {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    max-width: 864px;
+}
+
+.team-photos {
+    flex-wrap: wrap;
+    padding: 0 60px;
+}
+
+.team-photos .block {
+    flex-direction: column;
+    max-width: 413px;
+    margin-top: 40px;
+}
+
+.team-block .photo-container img {
+    height: 500px;
+    width: 413px;
+    border-radius: 12px;
+}
+
+.team-block h4 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #323264;
+    margin: 20px 0 5px;
+}
+
+.team-photo-footer p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #B3B3BA;
+}
+
+.arrow img {
+    width: 32px;
+    height: 32px;
+}
+
+
+
+footer {
+    margin-top: 60px;
+    background: #F5F5FA;
+}
+
+
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------TEAM---MEMBER------------ */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+/* ------------------------------- */
+
+
+
+.profil .about{
+    justify-content: center;
+    margin: 80px 0;
+}
+.profil .text-container{
+    max-width: 640px;
+}
+.profil .heading{
+    border-bottom: 4px solid #E6E6F0;
+}
+.profil .heading p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #B3B3BA;
+}
+.profil .heading a p{
+    font-size: 16px;
+    line-height: 19px;
+    color: #24A3FF;
+}
+.profil .footer{
+    justify-content: flex-start;
+    margin: 10px 0 20px;
+}
+.profil .footer p{
+    margin-right: 25px;
+}
+.profil .footer a:nth-child(2) p,
+.profil .footer a:nth-child(3) p{
+    position: relative;
+}
+
+.profil .footer a:nth-child(2) p::before,
+.profil .footer a:nth-child(3) p::before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #E6E6F0;
+    position: absolute;
+    top: calc(50% - 3px);
+    left: -15px;
+}
+.profil .photo img{
+    height: 500px;
+width: 413px;
+border-radius: 12px;
+margin-right: 40px;
+}
+.profil h1{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.profil .main-part p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.profil .main-part h4 {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.main-part p:nth-child(1),
+.main-part h4:nth-child(3),
+.main-part h4:nth-child(5){
+    margin-top: 40px;
+}
+.main-part p:nth-child(4),
+.main-part p:nth-child(6){
+    margin-top: 10px;
+}
+.main-part p:nth-child(2){
+    margin-top: 20px;
+}
