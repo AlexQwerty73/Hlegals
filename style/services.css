@@ -36,7 +36,7 @@ header a {
     color: white !important;
 }
 
-.navigation li a.active {
+.navigation.un li a.active {
     border-bottom: 2px solid #ffffff;
 }
 
@@ -127,10 +127,12 @@ header a {
     margin-left: 25px;
     position: relative;
 }
-.services-section ul *{
+
+.services-section ul * {
     margin-bottom: 15px;
 }
-.services-section ul *:last-child{
+
+.services-section ul *:last-child {
     margin-bottom: 0;
 }
 
@@ -150,71 +152,87 @@ header a {
 
 }
 
-header .container{
-    padding:  0;
+header .container {
+    padding: 0;
 }
+
 /* //////////////////i to i to (*/
 
-.burger-line{
+.burger-line {
     background-color: white;
 }
-.service-section{
-    padding: 50px 60px ;
+
+.service-section {
+    padding: 50px 60px;
 }
+
 @media screen and (max-width: 1100px) {
-.service-section{
-    padding: 20px;
-}
-header {
-    margin-bottom: -70px;
-}
-.header-section.service-page{
-    padding: 20px;
-}
-.header-section.service-page h2{
-font-size: 32px;
-line-height: 38px;
-}
-.header-section.service-page p{
-font-size: 18px;
-line-height: 26px;
-}
-.intro-section.wrap {
-    margin-top: 100px;
-    align-items: flex-start;
-    max-width: 500px;
-}
-.intro-section.wrap *{
-    text-align: left;
-}
-.intro-section.wrap .btn{
-    align-self: center;
-}
-.services-section ul *{
-    margin-bottom: 15px;
-}
-.services-section ul:last-child *:last-child{
-    margin-bottom: 0;
-}
-.services-section h3{
-font-size: 18px;
-line-height: 21px;}
+    .service-section {
+        padding: 20px;
+    }
 
-.services-section{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.services-section .text-container.wrap{
-    flex-direction: column;
-}
-.header-section {
-    background:
-        url('../images/service-page-bg.png') no-repeat center top,
-        linear-gradient(228.57deg, #323264 11.93%, #323264 77%, #643E72 95%) no-repeat center;
-    border-radius: 0px 0px 12px 12px;
-    /* height: 1151px; */
-    padding: 50px 60px 80px;
+    header {
+        margin-bottom: -70px;
+    }
 
-}
+    .header-section.service-page {
+        padding: 20px;
+    }
+
+    .header-section.service-page h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .header-section.service-page p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .intro-section.wrap {
+        margin-top: 100px;
+        align-items: flex-start;
+        max-width: 500px;
+    }
+
+    .intro-section.wrap * {
+        text-align: left;
+    }
+
+    .intro-section.wrap .btn {
+        align-self: center;
+    }
+
+    .services-section ul * {
+        margin-bottom: 15px;
+    }
+
+    .services-section ul:last-child *:last-child {
+        margin-bottom: 0;
+    }
+
+    .services-section h3 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .services-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .services-section .text-container.wrap {
+        flex-direction: column;
+    }
+
+    .header-section {
+        background:
+            url('../images/service-page-bg.png') no-repeat center top,
+            linear-gradient(228.57deg, #323264 11.93%, #323264 77%, #643E72 95%) no-repeat center;
+        border-radius: 0px 0px 12px 12px;
+        /* height: 1151px; */
+        padding: 50px 60px 80px;
+
+    }
 }

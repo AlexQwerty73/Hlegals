@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     border: 0;
-    text-decoration: none;
+    text-decoration: none !important;
     list-style: none;
     box-sizing: border-box;
     font-family: 'TT Norms', sans-serif;
