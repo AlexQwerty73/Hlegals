@@ -48,7 +48,7 @@
 }
 @media screen and (max-width: 500px) {
 .slider{
-    width: 140%;
+    width: 145%;
     position: relative;
     left: -60px;
 }

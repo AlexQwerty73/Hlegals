@@ -1,0 +1,152 @@
+.contact-poput-section {
+    background: #323264;
+    opacity: 0.7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-block {
+    background: #F5F5FA;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 527px;
+}
+
+a.contact-cross {
+    cursor: pointer;
+    /* width: 30px;
+    height: 30px; */
+    position: relative;
+    left: calc(100% - 25px);
+    top: -50px;
+}
+
+.contact-cross .cross-line {
+    width: 30px;
+    height: 2px;
+    background-color: #EC6F5D;
+    position: absolute;
+
+}
+
+.contact-cross .cross-line:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.contact-cross .cross-line:nth-child(2) {
+    transform: rotate(-45deg);
+}
+
+
+.form-block h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    margin-bottom: 20px;
+}
+
+.form-block label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #B3B3BA;
+    margin: 0 0 10px 10px;
+}
+
+.form-block input,
+.form-block textarea {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #B3B3BA;
+
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.form-block textarea {
+    height: 180px;
+    min-height: 50px;
+    max-height: 400px;
+
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.form-block button {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+    padding: 16px 70px;
+    margin: 0 auto;
+}
+
+.form-block .btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* -------------media---------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+
+
+
+@media screen and (max-width: 540px) {
+    .contact-poput-section {
+        background: none;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .form-block {
+        background: #F5F5FA;
+        border-radius: 0;
+        padding: 20px;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .form-block h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    a.contact-cross {
+        top: -35px;
+    }
+
+    .form-block label {
+        margin-bottom: 20px;
+    }
+
+    .form-block form input:nth-child(4) {
+        margin-bottom: 8px;
+    }
+}

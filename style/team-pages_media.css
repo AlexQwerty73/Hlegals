@@ -1,5 +1,4 @@
 @media screen and (max-width: 1500px) {
-
     .container {
         padding: 0 20px;
     }
@@ -40,11 +39,15 @@
         padding: 0 20px;
     }
 
+    /* .team-photos.wrap {
+        justify-content: flex-start;
+        margin: 0 auto;
+    } */
     .team-photos.wrap .block {
         display: flex;
         flex-direction: row;
         align-items: flex-end;
-        /* max-width: 413px;*/
+        width: 313px;
     }
 
     .team-photo-footer.wrap {
@@ -55,11 +58,6 @@
 
     .team-photo-footer.wrap p {
         margin: 5px 0 10px;
-    }
-
-
-    /* footer {
-        padding: 20px 0 120px;
     }
 
     footer .container,
@@ -91,7 +89,7 @@
 
     footer .contacts a img {
         margin: 20px 0;
-    } */
+    }
 }
 
 
