@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 80px 0;
+    margin: 80px auto;
 }
 .contact-block {
 width: 412px;
@@ -56,4 +56,37 @@ width: 412px;
     font-size: 21px;
     line-height: 30px;
     color: #24A3FF;
+}
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* -------------media---------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+/* ---------------------------------- */
+
+
+@media screen and (max-width: 1050px) {
+    .contact-form .container{
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 20px auto 40px;
+    }
+    .contact-form .contact-block{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .form-block {
+        background: #F5F5FA;
+        border-radius: 0;
+        padding: 20px;
+        width: 100%;
+        height: auto;
+    }
+    .form-block textarea {
+        max-height: 1000px;
+    }
 }
