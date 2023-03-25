@@ -11,7 +11,7 @@
 }
 
 .header-contacts div {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .header-contacts div:nth-child(2),
@@ -70,11 +70,11 @@
 }
 
 .navigation {
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .navigation li a {
-    margin-right: 15px;
+    margin-left: 15px;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -138,7 +138,7 @@ header .container{
 }
 
 .whitebg .header-contacts div {
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .whitebg .header-contacts div:nth-child(2),
@@ -163,15 +163,15 @@ header .container{
     background: #E6E6F0;
     position: absolute;
     top: calc(50% - 3px);
-    left: 90px;
+    left: 110px;
 }
 
 .whitebg .header-contacts div:nth-child(2)::after {
-    left: 325px;
+    left: 345px;
 }
 
 .whitebg .header-contacts div:nth-child(3)::after {
-    left: 490px;
+    left: 510px;
 }
 
 .whitebg .header-contacts ul li {
@@ -207,7 +207,7 @@ header .container{
 }
 
 .whitebg .navigation li a {
-    margin-right: 15px;
+    margin-left: 15px;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -219,7 +219,7 @@ header .container{
     border-bottom: 2px solid #F0145A;
 }
 /* ------------------------------ */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1120px) {
 
      .logo img {
         height: 31px;
