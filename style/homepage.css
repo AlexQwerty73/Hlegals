@@ -5,8 +5,7 @@
         url("../images/pattern.svg") no-repeat center bottom,
         linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
     color: white;
-    height: 800px;
-    overflow: hidden;
+    /* height: 800px; */
 }
 
 .splash .container {
@@ -15,6 +14,33 @@
 
 .splash a {
     color: white;
+}
+.SymbolLongleg {
+    flex-direction: column;
+    /* padding: 185px 0 0 0; */
+    position: relative;
+}
+
+
+.SymbolLongleg p {
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 500;
+    /* position: absolute;
+    top: 243px; */
+    z-index: 10;
+    text-align: center;
+    margin-top: 243px;
+}
+
+.scoll-down {
+margin: 290px auto 20px;
+}
+
+.scoll-down img {
+    width: 42px;
+    height: 42px;
+    z-index: 1;
 }
 .burger .burger-line {
     background-color: white;

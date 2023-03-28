@@ -80,35 +80,7 @@
     line-height: 21px;
 }
 
-.SymbolLongleg {
-    flex-direction: column;
-    padding: 185px 0 0 0;
-    position: relative;
-}
 
-
-.SymbolLongleg p {
-    font-size: 38px;
-    line-height: 45px;
-    font-weight: 500;
-    position: absolute;
-    top: 243px;
-    z-index: 10;
-    text-align: center;
-}
-
-.scoll-down {
-    position: absolute;
-    left: calc(50% - 21px);
-    top: 603px;
-
-}
-
-.scoll-down img {
-    width: 42px;
-    height: 42px;
-    z-index: 1;
-}
 
 
 
