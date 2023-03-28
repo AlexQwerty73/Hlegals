@@ -3,9 +3,11 @@
     border-radius: 0px 0px 12px 12px;
     padding-bottom: 50px;
 }
-.service-section .container{
+
+.service-section .container {
     padding: 50px 60px;
 }
+
 header a {
     color: #B3B3BA;
 }
@@ -48,7 +50,8 @@ header a {
         linear-gradient(228.57deg, #323264 11.93%, #323264 77%, #643E72 95%) no-repeat center;
     border-radius: 0px 0px 12px 12px;
 }
-.header-section .container{
+
+.header-section .container {
     padding: 50px 60px 80px;
 }
 
@@ -154,10 +157,7 @@ header a {
 }
 
 
-@media screen and (max-width: 1100px) {
-    .service-section {
-        padding: 20px;
-    }
+@media screen and (max-width: 1120px) {
 
     header {
         margin-bottom: -70px;
@@ -192,7 +192,7 @@ header a {
     }
 
     .services-section ul:last-child *:last-child {
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
 
     .services-section h3 {
@@ -216,9 +216,18 @@ header a {
             linear-gradient(228.57deg, #323264 11.93%, #323264 77%, #643E72 95%) no-repeat center;
         border-radius: 0px 0px 12px 12px;
     }
+
     .header-section .container,
-    .service-section .container{
-        padding: 20px;
+    .service-section .container {
+        padding: 0 20px;
+    }
+
+    header {
+        padding: 20px 20px 0;
+    }
+
+    header.up {
+        padding: 20px 0 0 0;
     }
 
 }
