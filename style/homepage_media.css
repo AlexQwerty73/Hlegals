@@ -1,0 +1,137 @@
+@media screen and (max-width: 1200px) {
+    .carousel .text-conteiner h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .carousel img {
+        display: none;
+    }
+
+    .carousel .card {
+        padding: 20px;
+    }
+
+    .carousel .foot-text-container img {
+        display: block;
+        max-width: 60px !important;
+        height: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 10px;
+    }
+
+    .carousel .foot-text-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .carousel .text-conteiner {
+        padding: 0px;
+    }
+
+    .Team {
+        padding: 20px;
+    }
+
+    .carousel-indicators {
+        position: absolute;
+        top: -100px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .splash .container {
+        padding: 20px;
+    }
+
+    .SymbolLongleg p {
+        margin-top: 200px;
+    }
+    
+    .scoll-down {
+    margin: 251px auto 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Experience-Services .container {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .carousel {
+        border: 0;
+        margin: 0 -10px;
+    }
+
+
+
+
+    .Experience-Services .experience.wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Experience-Services .experience ul li {
+        display: none;
+    }
+
+    .Experience-Services .experience ul li.active {
+        display: block;
+        border-right: none;
+        padding: 0;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        height: auto;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+
+    .Experience-Services .experience .text-container {
+        margin: 0;
+    }
+
+    .Experience-Services .text-container h2 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+
+    .Experience-Services .experience .text-container p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .Experience-Services .experience .dots{
+        display: block;
+        display: flex;
+        gap:14px;
+        margin: 20px auto 0;
+    }
+    .Experience-Services .experience .dot{
+        width: 16px;
+        height: 16px;
+        background: #24A3FF;
+        opacity: 0.2;
+        border-radius: 50%;
+
+    }
+    .Experience-Services .experience .dot.active{
+        background: #24A3FF;
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 600px) {
+    .splash {
+        background: 
+            linear-gradient(180deg, rgba(50, 50, 100, 0) 10%, #323264 100%) repeat-x center bottom,
+            url("../images/SymbolLongleg.png") no-repeat center bottom,
+            linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
+        color: white;
+        /* height: 800px; */
+        overflow: hidden;
+    }
+}
