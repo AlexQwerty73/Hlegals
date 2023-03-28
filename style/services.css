@@ -1,7 +1,7 @@
 .service-section {
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
     border-radius: 0px 0px 12px 12px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .service-section .container {
@@ -52,7 +52,7 @@ header a {
 }
 
 .header-section .container {
-    padding: 50px 60px 80px;
+    padding: 50px 60px 80px ;
 }
 
 .intro-section.wrap {
@@ -159,10 +159,13 @@ header a {
 
 @media screen and (max-width: 1120px) {
 
-    header {
-        margin-bottom: -70px;
+    header.media-header {
+        padding: 0;
     }
 
+    .service-section .container {
+        padding: 20px !important;
+    }
     .header-section.service-page h2 {
         font-size: 32px;
         line-height: 38px;
