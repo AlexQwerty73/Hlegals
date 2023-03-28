@@ -3,24 +3,18 @@
     border-radius: 0px 0px 12px 12px;
     padding-bottom: 50px;
 }
-
+.service-section .container{
+    padding: 50px 60px;
+}
 header a {
     color: #B3B3BA;
 }
-
-/* header .logo img {
-    height: 63px;
-    width: 419px;
-} */
 
 .header-contacts {
     margin-bottom: 16px;
     position: relative;
 }
 
-.header-contacts div {
-    margin-right: 20px;
-}
 
 .header-contacts div:nth-child(2),
 .header-contacts div:nth-child(3) {
@@ -53,9 +47,9 @@ header a {
         url('../images/service-page-bg.png') no-repeat center top/ 100% 500px,
         linear-gradient(228.57deg, #323264 11.93%, #323264 77%, #643E72 95%) no-repeat center;
     border-radius: 0px 0px 12px 12px;
-    /* height: 1151px; */
+}
+.header-section .container{
     padding: 50px 60px 80px;
-
 }
 
 .intro-section.wrap {
@@ -152,9 +146,6 @@ header a {
 
 }
 
-header .container {
-    padding: 0;
-}
 
 /* //////////////////i to i to (*/
 
@@ -162,9 +153,6 @@ header .container {
     background-color: white;
 }
 
-.service-section {
-    padding: 50px 60px;
-}
 
 @media screen and (max-width: 1100px) {
     .service-section {
@@ -173,10 +161,6 @@ header .container {
 
     header {
         margin-bottom: -70px;
-    }
-
-    .header-section.service-page {
-        padding: 20px;
     }
 
     .header-section.service-page h2 {
@@ -231,8 +215,10 @@ header .container {
             url('../images/service-page-bg.png') no-repeat center top,
             linear-gradient(228.57deg, #323264 11.93%, #323264 77%, #643E72 95%) no-repeat center;
         border-radius: 0px 0px 12px 12px;
-        /* height: 1151px; */
-        padding: 50px 60px 80px;
-
     }
+    .header-section .container,
+    .service-section .container{
+        padding: 20px;
+    }
+
 }

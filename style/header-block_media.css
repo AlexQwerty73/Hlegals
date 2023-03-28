@@ -35,15 +35,15 @@
     background: #E6E6F0;
     position: absolute;
     top: calc(50% - 3px);
-    left: 90px;
+    left: 110px;
 }
 
 .header-contacts div:nth-child(2)::after {
-    left: 325px;
+    left: 345px;
 }
 
 .header-contacts div:nth-child(3)::after {
-    left: 490px;
+    left: 510px;
 }
 
 .header-contacts ul {
@@ -70,7 +70,7 @@
 }
 
 .navigation {
-    justify-content: space-between;
+    justify-content: flex-end  ;
 }
 
 .navigation li a {
