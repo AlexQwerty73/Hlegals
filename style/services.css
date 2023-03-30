@@ -148,7 +148,9 @@ header a {
     align-items: flex-start;
 
 }
-
+.Cases .wrap-grid{
+    margin-bottom: 40px;
+}
 
 /* //////////////////i to i to (*/
 
