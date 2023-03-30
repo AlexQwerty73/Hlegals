@@ -236,3 +236,11 @@ header a {
     }
 
 }
+@media screen and (max-width: 550px) {
+    .shadow-section .shadow-1{
+        width: 94% !important;
+    }
+    .shadow-section .shadow-2{
+        width: 89% !important;
+    }
+}
