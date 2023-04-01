@@ -4,7 +4,8 @@
     background: rgba(245, 245, 250, 1);
     position: relative;
 }
-.publications-section .container{
+
+.publications-section .container {
     padding: 35px 0 0 0;
 
     flex-direction: column;
@@ -156,8 +157,10 @@
 }
 
 @media screen and (max-width: 920px) {
-    .publications-section .container{
-        padding: 0 0 0 0;}
+    .publications-section .container {
+        padding: 0 0 0 0;
+    }
+
     .publications-section .block-content.wrap-grid {
         grid-template-columns: repeat(2, 335px);
         grid-template-rows: repeat(30, 0px);
@@ -216,7 +219,8 @@
         font-size: 32px;
         line-height: 38px;
     }
-    /* .publications-section .heading-texts {
-        padding: 20px;
-    } */
+
+    .publications-section .heading-texts {
+        padding-left: 10px;
+    }
 }

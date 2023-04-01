@@ -21,100 +21,124 @@
     margin-bottom: -5px;
 } */
 
-.Clients .item{
+.Clients .item {
     width: 360px;
     height: 120px;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
-.Clients .item:nth-child(1){
-    background-color: rgba(28, 66, 128, 1)  ;
+
+.Clients .item:nth-child(1) {
+    background-color: rgba(28, 66, 128, 1);
 }
-.Clients .item:nth-child(2){
-    background-color:rgba(20, 54, 70, 1) ;
+
+.Clients .item:nth-child(2) {
+    background-color: rgba(20, 54, 70, 1);
 }
-.Clients .item:nth-child(3){
-    background-color:rgba(244, 139, 48, 1) ;
+
+.Clients .item:nth-child(3) {
+    background-color: rgba(244, 139, 48, 1);
 }
-.Clients .item:nth-child(4){
-    background-color:rgba(158, 77, 195, 1) ;
+
+.Clients .item:nth-child(4) {
+    background-color: rgba(158, 77, 195, 1);
 }
-.Clients .item:nth-child(5){
+
+.Clients .item:nth-child(5) {
     background-color: rgba(253, 147, 57, 1);
 }
-.Clients .item:nth-child(6){
-    background-color:rgba(226, 226, 228, 1) ;
+
+.Clients .item:nth-child(6) {
+    background-color: rgba(226, 226, 228, 1);
 }
-.Clients .item:nth-child(7){
+
+.Clients .item:nth-child(7) {
     background-color: rgba(199, 28, 54, 1);
 }
-.Clients .item:nth-child(8){
+
+.Clients .item:nth-child(8) {
     background-color: rgba(220, 243, 249, 1);
 }
-.Clients .item:nth-child(9){
-    background-color:rgba(234, 234, 234, 1) ;
+
+.Clients .item:nth-child(9) {
+    background-color: rgba(234, 234, 234, 1);
 }
-.Clients .item:nth-child(10){
+
+.Clients .item:nth-child(10) {
     background-color: rgba(40, 34, 64, 1);
 }
-.Clients .item:nth-child(11){
+
+.Clients .item:nth-child(11) {
     background-color: rgba(29, 69, 104, 1);
 }
-.Clients .item:nth-child(12){
+
+.Clients .item:nth-child(12) {
     background-color: rgba(0, 0, 0, 1);
 }
 
 @media screen and (max-width: 750px) {
-    .Clients .item-container .item:nth-child(1) img{
+    .Clients .item-container .item:nth-child(1) img {
         /* height: 35px; */
         width: 158px;
     }
-    .Clients .item-container .item:nth-child(2) img{
+
+    .Clients .item-container .item:nth-child(2) img {
         /* height:27px ; */
-        width: 168px;
+        width: 160px;
     }
-    .Clients .item-container .item:nth-child(3) img{
+
+    .Clients .item-container .item:nth-child(3) img {
         /* height: 40px; */
         width: 161px;
     }
-    .Clients .item-container .item:nth-child(4) img{
+
+    .Clients .item-container .item:nth-child(4) img {
         /* height: 34px; */
         width: 146px;
     }
-    .Clients .item-container .item:nth-child(8) img{
+
+    .Clients .item-container .item:nth-child(8) img {
         /* height: 54px; */
         width: 104px;
     }
-    .Clients .item-container .item:nth-child(7) img{
+
+    .Clients .item-container .item:nth-child(7) img {
         /* height:49px ; */
         width: 111px;
     }
-    .Clients .item-container .item:nth-child(5) img{
+
+    .Clients .item-container .item:nth-child(5) img {
         /* height:36px ; */
-        width:144px ;
+        width: 144px;
     }
-    .Clients .item-container .item:nth-child(9) img{
+
+    .Clients .item-container .item:nth-child(9) img {
         /* height: 39px; */
         width: 104px;
     }
-    .Clients .item-container .item:nth-child(12) img{
+
+    .Clients .item-container .item:nth-child(12) img {
         /* height: 70px; */
         width: 112px;
     }
-    .Clients .item-container .item:nth-child(11) img{
+
+    .Clients .item-container .item:nth-child(11) img {
         /* height: 33px; */
-        width:137px ;
+        width: 137px;
     }
-    .Clients .item-container .item:nth-child(10) img{
+
+    .Clients .item-container .item:nth-child(10) img {
         /* height: 46px; */
         width: 132px;
     }
-    .Clients .item-container .item:nth-child(6) img{
+
+    .Clients .item-container .item:nth-child(6) img {
         /* height: 33px; */
         width: 128px;
     }
-    .Clients .item{
+
+    .Clients .item {
         height: 90px;
         width: 50%;
     }

@@ -79,6 +79,7 @@
         line-height: 38px;
         margin-bottom: 20px;
     }
+
     .services .block-heading img {
         width: 64px;
         height: 64px;
@@ -88,6 +89,7 @@
         font-size: 18px;
         line-height: 21px;
     }
+
     .Services-grid .block:first-child {
         margin-top: 0;
     }

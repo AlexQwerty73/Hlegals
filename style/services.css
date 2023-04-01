@@ -52,7 +52,7 @@ header a {
 }
 
 .header-section .container {
-    padding: 50px 60px 80px ;
+    padding: 50px 60px 80px;
 }
 
 .intro-section.wrap {
@@ -148,7 +148,8 @@ header a {
     align-items: flex-start;
 
 }
-.Cases .wrap-grid{
+
+.Cases .wrap-grid {
     margin-bottom: 40px;
 }
 
@@ -164,12 +165,15 @@ header a {
     header.media-header {
         padding: 0;
     }
-.services{
-    margin-top: 0px;
-}
+
+    .services {
+        margin-top: 0px;
+    }
+
     .service-section .container {
         padding: 20px !important;
     }
+
     .header-section.service-page h2 {
         font-size: 32px;
         line-height: 38px;

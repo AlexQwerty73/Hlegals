@@ -48,9 +48,9 @@
     .SymbolLongleg p {
         margin-top: 200px;
     }
-    
+
     .scoll-down {
-    margin: 251px auto 20px;
+        margin: 251px auto 20px;
     }
 }
 
@@ -105,13 +105,15 @@
         font-size: 18px;
         line-height: 26px;
     }
-    .Experience-Services .experience .dots{
+
+    .Experience-Services .experience .dots {
         display: block;
         display: flex;
-        gap:14px;
+        gap: 14px;
         margin: 20px auto 0;
     }
-    .Experience-Services .experience .dot{
+
+    .Experience-Services .experience .dot {
         width: 16px;
         height: 16px;
         background: #24A3FF;
@@ -119,14 +121,16 @@
         border-radius: 50%;
 
     }
-    .Experience-Services .experience .dot.active{
+
+    .Experience-Services .experience .dot.active {
         background: #24A3FF;
         opacity: 1;
     }
 }
+
 @media screen and (max-width: 600px) {
     .splash {
-        background: 
+        background:
             linear-gradient(180deg, rgba(50, 50, 100, 0) 10%, #323264 100%) repeat-x center bottom,
             url("../images/SymbolLongleg.png") no-repeat center bottom,
             linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
@@ -134,4 +138,10 @@
         /* height: 800px; */
         overflow: hidden;
     }
+}
+@media screen and (max-width: 400px) {
+    
+.Team {
+    padding: 10px 10px 0;
+}
 }

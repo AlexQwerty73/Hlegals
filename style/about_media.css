@@ -1,4 +1,5 @@
 @media screen and (max-width: 1000px) {
+
     .introduction-section .b-block.wrap,
     .more-text .b-block.wrap {
         flex-direction: column;
@@ -16,11 +17,13 @@
     .more-text .p-block {
         margin-bottom: 20px;
     }
+
     .introduction-section ul,
-    .more-text .heading{
+    .more-text .heading {
         padding-top: 15px;
     }
-    .photo-section h2{
+
+    .photo-section h2 {
         font-size: 56px;
         font-size: 60px;
         line-height: 42px;
@@ -33,40 +36,51 @@
     .achievments-slider .block {
         left: 0.4%;
     }
-    .achievments-slider .block img{
+
+    .achievments-slider .block img {
         width: 200px;
-       
+
     }
 }
+
 @media screen and (max-width: 600px) {
-    .achievments-slider .block img{
+    .achievments-slider .block img {
         width: 157px;
         height: 57.04px;
         /* left: 0; */
     }
 
 }
+
 @media screen and (max-width: 500px) {
-.slider{
-    width: 145%;
-    position: relative;
-    left: -60px;
-}
-    .photo-section{
+    .slider {
+        width: 145%;
+        position: relative;
+        left: -50px;
+    }
+
+    .photo-section {
         height: 290px;
     }
-    .photo-section h2{
+
+    .photo-section h2 {
         font-size: 36px;
         line-height: 38px;
     }
+
     .introduction-section .text-block p,
     .more-text p {
         font-size: 18px;
         line-height: 26px;
     }
+
     .introduction-section .text-block h2,
-    .more-text h2{
-font-size: 32px;
-line-height: 38px;
+    .more-text h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .achievments-slider .block img{
+        width: 100px !important;
+        height: 40px;
     }
 }
